@@ -34,8 +34,7 @@ class CommonPageView(View):
             raise Http404(f'File does not exist: {template_filename}')
 
 
-class Home(CommonPageView):
+class HomeView(CommonPageView):
     page_name = 'home'
     def get_context_data(self, **kwargs):
-        print('here')
         return {}

@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django_jinja', 
     'django_jinja_markdown',
     'home',
+    'services',
 ]
 
 MIDDLEWARE = [
