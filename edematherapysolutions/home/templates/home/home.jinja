@@ -1,0 +1,85 @@
+{% extends "home/base.jinja" %}
+{% block addtohead %}
+{% endblock addtohead %}
+{% block maincontent %}
+<div class="row justify-content-center">
+    <div class="col-sm-2">
+        <img src="{{static('home/images/edemaswirls.JPG')}}" alt="My image">
+    </div>
+    <div class="col-sm-7"><h1 style="margin-top:100px">Edema Therapy Solutions</h1></div>
+</div>
+
+<div class="row ets-lightest-green">
+    <div class="col-sm-12 text-center">
+        <h2>"Swelling Solutions"</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3 col-sm-6 text-center ets-light-green">
+        <h2>About</h2>
+        <h3>All treatment supervised by a Certified Lymphedema Therapist. We find solutions for extremity edema from a variety of conditions.</h3>
+    </div>
+    <div class="col-md-3 col-sm-6 text-center ets-green">
+        <h2>Services</h2>
+        <h3>-Compression Treatments</h3>
+        <h3>-Manual Lymphatic Drainage (MLD)</h3>
+        <h3>-Skin Care</h3>
+        <h3>-Exercises</h3>
+        <h3>-Intermittent pneumatic compression pump testing & assistance</h3>
+    </div>
+    <div class="col-md-3 col-sm-6 text-center ets-medium-green">
+        <h2>Contact</h2>
+        <h3>
+            3920 Washington Parkway<br>Idaho Falls, ID 83404 <br><br>
+            By appointment only<br><br>
+            Phone: 208-569-2141 <br><br>
+            Fax: 833-734-1518
+        </h3>
+    </div>
+    <div class="col-md-3 col-sm-6 text-center ets-dark-green">
+        <h2>Education</h2>
+        <h3>-Medications</h3>
+        <h3>-Exercises</h3>
+        <h3>-Diet</h3>
+        <h3>-Lifestyle</h3>      
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-7 col-sm-12" style="padding:40px;">
+        <p>
+            Edema is a localized or generalized abnormal accumulation of fluid in the tissues (WOCN Society, 2005).
+            Underrecognized and underserved patient population >20,000,000 patients in the U.S.
+            There are many conditions that can cause and influence lower extremity edema; for example
+            <ul>
+                <li>Operations of any kind</li> 
+                <li>Chronic venous disease</li>
+            <li>Lymphedema</li>
+            <li>Lipedema</li>
+            <li>
+                Systemic disease such as
+                <ul>
+                    <li>Chronic heart failure</li>
+                    <li>Pulmonary hypertension</li>
+                    <li>Renal failure</li>
+                </ul>
+            </li>
+            <li>Trauma</li>
+        </p>
+    </div>
+    <div class="col-md-5 col-sm-12 ets-green">
+        Files
+    </div>
+</div>
+
+<div class="row ets-light-green">
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+
+{% endblock maincontent %}

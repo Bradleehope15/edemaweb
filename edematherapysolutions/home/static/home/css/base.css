@@ -1,0 +1,52 @@
+h1 {
+    color: #57614E !important;
+    font-family: 'Open Sans', sans-serif !important;    
+    font-size: 60px !important;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif !important;    
+    font-size: 40px !important;
+    margin: 20px !important;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 25px !important;
+}
+
+p ul li {
+    color: #57614E !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.ets-nav {
+    color: #57614E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.ets-lightest-green {
+    background-color: #E3EDDA;
+    padding:40px;
+}
+
+.ets-light-green {
+    background-color: #D5E1CA;
+    padding:40px;
+}
+
+.ets-green {
+    background-color: #AEC29B;
+    padding:40px;
+}
+
+.ets-medium-green {
+    background-color: #839274;
+    padding:40px;
+}
+
+.ets-dark-green {
+    background-color: #57614E;
+    padding:40px;
+}
