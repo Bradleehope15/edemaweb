@@ -35,7 +35,7 @@ class CommonPageView(View):
 
 
 class Home(CommonPageView):
-    page_name = 'base'
+    page_name = 'home'
     def get_context_data(self, **kwargs):
         print('here')
         return {}
